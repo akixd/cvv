@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#main {
+    position: relative;
+    border: solid 1px black;
+    height: inherit;
+    margin: 50px;
+    background-color: antiquewhite;
+}
+
+#top {
+    text-align: center;
+    background-color: gray;
+    height: 20%;
+    width: auto;
+}
+
+#name {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 30px;
+    padding-left: 50vh;
+}
+
+#photo {
+    position:absolute;
+    top: 5vh;
+    left: 10vh;
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    border-radius: 60%;
+}
+
+#left {
+    display: inline-block;
+    width: auto;
+    height: 80%;
+    border: solid 1px black;
+    text-align: left;
+    margin: 20px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+a::after {
+    content: "";
+    border: 1px solid #F6F6F6
+}
+
+#l-top{
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+#l-contact a, #l-skills a,#r-education a, #r-experience a {
+    font-weight: 600;
+}
+
+#right {
+    display: inline-block;
+    width: auto;
+    border: solid 1px black;
+    text-align: left;
+    
+}
