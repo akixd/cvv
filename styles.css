@@ -1,15 +1,18 @@
-html, body{
+html, body {
     height: 100%;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main {
     position: relative;
     border: solid 1px black;
+    max-width: 1200px;
     height: inherit;
-    margin: 50px;
     background-color: antiquewhite;
 }
 
@@ -21,55 +24,55 @@ html, body{
 }
 
 #name {
+    position: relative;
+    padding: 30px;
     font-size: 40px;
     font-weight: 700;
     color: white;
-    padding: 30px;
-    padding-left: 50vh;
 }
 
 #photo {
-    position:absolute;
-    top: 5vh;
-    left: 10vh;
-    height: 150px;
-    width: 150px;
+    position: absolute;
+    top: 8vh;
+    left: 4vh;
+    height: 300px;
+    width: 300px;
     background-color: aliceblue;
     border-radius: 60%;
 }
 
-#left {
+#left, #right {
     display: inline-block;
     width: auto;
-    height: 80%;
-    border: solid 1px black;
+    height: auto;
     text-align: left;
-    margin: 20px;
+    margin: 30px 50px; 
 }
 
 p {
     white-space: pre-line;
 }
 
-a::after {
-    content: "";
-    border: 1px solid #F6F6F6
+.underline {
+    border-bottom: 1px solid #000000;
+    font-weight: 700;
+    
 }
 
-#l-top{
-    margin: 10px;
-    padding: 5px;
-    text-align: left;
-}
-
-#l-contact a, #l-skills a,#r-education a, #r-experience a {
+.title {
     font-weight: 600;
 }
 
-#right {
-    display: inline-block;
-    width: auto;
-    border: solid 1px black;
-    text-align: left;
-    
+
+#l-contact a, #l-skills a, #r-education a, #r-experience a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#r-education {
+    margin-top: 20px;
+}
+
+#l-skills {
+    margin-top: 50px;
 }
