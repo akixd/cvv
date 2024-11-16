@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 html, body {
-    height: 100%;
-    width: 100%;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #main {
     max-width: 1200px;
     min-height: 100%;
     background-color: #f4f3ee;
-   
-    border: solid 1px black;
     margin-bottom: 20px;
 }
+
 
 #top {
     text-align: center;
@@ -66,13 +64,14 @@ html, body {
 
 p {
     white-space: pre-line;
-    line-height: 15px
+    line-height: 1;
 }
 
 .underline {
     border-bottom: 1px solid #000000;
     font-weight: 700;
     font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .title {
@@ -99,7 +98,6 @@ p {
     padding: 4px; 
     border-radius: 10px;
 }
-
 
 
 
