@@ -10,7 +10,7 @@
 <body>
     <div id="main">
         <div id="top">
-            <div id="name">
+            <div class="name">
                 <a>Norbert Załęski</a>
             </div>
             <div id="photo">
@@ -67,6 +67,22 @@
                 </p>
             </div>
         </div>
+
+        <div class="contact-form">
+            <h2>Formularz Kontaktowy</h2>
+            <form action="#" method="POST">
+              <label for="name">Imię i Nazwisko:</label>
+              <input type="text" id="name" name="name" required title="Proszę wpisać swoje imię i nazwisko.">
+        
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required  title="Proszę wpisać poprawny adres email.">
+        
+              <label for="message">Wiadomość:</label>
+              <textarea id="message" name="message" rows="5" required title="Proszę wpisać wiadomość."></textarea>
+        
+              <button type="submit">Wyślij</button>
+            </form>
+          </div>
     </div>
 </body>
 </html>
